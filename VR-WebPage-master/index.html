@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>360 Degree VR View</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aframe/1.0.4/aframe.js"
+      integrity="sha512-UpqpXUuK8DzhknJ0rpgN/Ybdd/SE8JWyGhrCYJIxEJX8c4H9M4VOJ8uvwepxPvARPYiAxHZar7MLh9An015Z/w=="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <img
+          id="panorama"
+          class="imgo"
+          src="taj-mahal.jpg"
+          crossorigin="anonymous"
+        />
+      </a-assets>
+      <a-sky src="#panorama" rotation="0 -90 0"></a-sky>
+      <a-entity position="0 0 1.5">
+        <a-camera></a-camera>
+      </a-entity>
+    </a-scene>
+  </body>
+</html>
