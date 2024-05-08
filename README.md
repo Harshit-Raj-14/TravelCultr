@@ -1,15 +1,25 @@
 # TravelCultr
 
 **EPICS PROJECT**
+
 **GROUP -25**
+
 Members:
+
 21BCG10006 Harshit Raj
+
 21BCG10002 Sudhir Venkatesh
+
 21BCG10014 Arin Goyal
+
 21BCG10033 Pushkar Joshi
+
 21BCE10912 Yash Ahuja
+
 21BCE10751 Yash Saxena
+
 21BEC10049 Pritam Das
+
 21BCY10143 Mithun karthick
 
 ### PROJECT PICTURES:
